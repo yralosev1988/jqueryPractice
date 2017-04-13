@@ -1,0 +1,23 @@
+body{
+  background-color: grey;
+}
+.accordion{
+  width: 50%;
+  margin:0 auto;
+}
+.accordion h4{
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: darkslategrey;
+  background-color: darkcyan;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.accordion h5{
+  font-size: 20px;
+  background-color: darkolivegreen;
+  padding: 10px;
+  cursor: pointer;
+
+}
