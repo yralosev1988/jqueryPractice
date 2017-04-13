@@ -1,0 +1,41 @@
+body{
+  background-color: grey;
+}
+nav{
+  width:100%;
+  background-color: cornflowerblue;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+nav li{
+  display:inline-block;
+
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  padding: 30px;
+  color:black;
+}
+nav a:hover{
+  background-color: greenyellow;
+}
+.menu-trigger{
+  text-align: center;
+  display: none;
+}
+@media screen and (max-width:600px){
+  nav ul{
+    display: none;
+  }
+  nav li{
+    display: block;
+    text-align: center;
+  }
+  nav a{
+    border-bottom: 1px solid black;
+  }
+  .menu-trigger{
+    display: block;
+  }
+}
